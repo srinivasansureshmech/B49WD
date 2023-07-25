@@ -1,0 +1,61 @@
+{
+  "name": "Srinivasan S",
+  "title": "Software Engineer",
+  "contact": {
+    "email": "srinivasansureshmech@gmail.com",
+    "phone": "9787742953",
+    "address": "123 Main Street, City, State, ZIP"
+  },
+  "summary": "Highly skilled and motivated software engineer with 5 years of experience in developing web applications. Proficient in various programming languages and frameworks, with a strong focus on front-end development. Adept at collaborating with cross-functional teams to deliver high-quality software solutions.",
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Mechanical",
+      "university": "XYZ University",
+      "location": "City, State",
+      "graduationYear": "2020"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Tech Solutions Inc.",
+      "location": "City, State",
+      "startDate": "2020-06",
+      "endDate": "2023-05",
+      "description": "Developed and maintained web applications using HTML, CSS, and JavaScript. Collaborated with UX designers to implement responsive and user-friendly interfaces. Worked on backend integration and API development. Resolved bugs and optimized application performance."
+    },
+    {
+      "title": "Software Development Intern",
+      "company": "Software Co.",
+      "location": "City, State",
+      "startDate": "2017-05",
+      "endDate": "2017-08",
+      "description": "Assisted in the development and testing of web-based applications. Gained practical experience in full-stack development and version control systems. Worked closely with senior developers to deliver features within tight deadlines."
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "React",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "Git",
+    "SQL",
+    "Agile Development"
+  ],
+  "projects": [
+    {
+      "title": "E-commerce Website",
+      "description": "Developed a responsive e-commerce website using React and Node.js. Implemented product catalog, shopping cart, and secure checkout functionalities. Integrated with third-party payment gateways.",
+      "url": "https://www.example-ecommerce.com"
+    },
+    {
+      "title": "Task Management App",
+      "description": "Built a task management application with React and Express.js. Users can create, update, and delete tasks, and view them in a Kanban-style board.",
+      "url": "https://www.example-taskapp.com"
+    }
+  ],
+  "languages": ["English (Fluent)", "Spanish (Intermediate)"],
+  "interests": ["Reading", "Hiking", "Cooking"]
