@@ -1,0 +1,56 @@
+UML diagram
+-------------------------
+|       Rectangle       |
+-------------------------
+| - length: number      |
+| - width: number       |
+-------------------------
+| + Rectangle()        |
+| + Rectangle(l: number, w: number) |
+| + getLength(): number |
+| + setLength(l: number): void |
+| + getWidth(): number  |
+| + setWidth(w: number): void |
+| + getArea(): number   |
+-------------------------
+
+TypeScript Program
+
+class Rectangle {
+  private length: number;
+  private width: number;
+
+  constructor();
+  constructor(l: number, w: number);
+
+  constructor(l?: number, w?: number) {
+    if (l !== undefined && w !== undefined) {
+      this.length = l;
+      this.width = w;
+    } else {
+      this.length = 0;
+      this.width = 0;
+    }
+  }
+
+  getLength(): number {
+    return this.length;
+  }
+
+  setLength(l: number): void {
+    this.length = l;
+  }
+
+  getWidth(): number {
+    return this.width;
+  }
+
+  setWidth(w: number): void {
+    this.width = w;
+  }
+
+  getArea(): number {
+    return this.length * this.width;
+  }
+}
+
